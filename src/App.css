@@ -1,1 +1,29 @@
+body{
+  background-color: black;
+}
 
+/* NavBar */
+.navigation{
+  color:white;
+  position:relative;
+  bottom:1em;
+  width:100%;
+}
+
+.planet{
+  position:relative;
+  top:2em;
+  left:95%;
+}
+
+
+.summary{
+  color:white;
+  background-color: white;
+  height:40em;
+}
+
+.intro{
+  color:white;
+  height:40em;
+}
