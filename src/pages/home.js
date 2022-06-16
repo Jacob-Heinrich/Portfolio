@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar/navbar';
 import HeroSection from '../components/HeroSection/index';
 import About from '../components/About/index';
 import Technology from '../components/Technology/index';
+import Projects from '../components/Projects/index';
 import { homeObjOne, homeObjTwo } from '../components/About/Data';
 
 
@@ -23,6 +24,7 @@ function Home(){
     <About {...homeObjOne} />
     <About {...homeObjTwo} />
     <Technology />
+    <Projects />
     </>
   )
 }

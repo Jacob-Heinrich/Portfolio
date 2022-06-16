@@ -16,3 +16,26 @@
 .techItems:hover{
   color: #1e97f3;
 }
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+.resDownload{
+  color:white;
+  position:absolute;
+  bottom:0;
+  right:1em;
+}
+
+.res{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resImage{
+  width:100%;
+  height:100%;
+}

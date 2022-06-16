@@ -13,21 +13,18 @@ function Technology(){
         <TechnologyRow>
           <Column1>
             <Subtitle>
-            <ul className="technologyListOne">
-            <li className="techItems">Python</li>
-            <li className="techItems">C++</li>
-            <li className="techItems">Javascript</li>
-            <li className="techItems">MongoDB</li>
-            </ul>
+            <p className="techItems">Python</p>
+            <p className="techItems">C++</p>
+            <p className="techItems">Javascript</p>
+            <p className="techItems">MongoDB</p>
+            <p className="techItems">HTML/CSS</p>
             </Subtitle>
           </Column1>
           <Column2>
             <Subtitle>
-            <ul className="technologyListOne">
-            <li className="techItems">React</li>
-            <li className="techItems">NodeJS</li>
-            <li className="techItems">Express</li>
-            </ul>
+            <p className="techItems">Express</p>
+            <p className="techItems">React</p>
+            <p className="techItems">NodeJS</p>
             </Subtitle>
           </Column2>
         </TechnologyRow>
