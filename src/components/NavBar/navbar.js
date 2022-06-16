@@ -1,0 +1,35 @@
+import React from 'react';
+import '../../App.css';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavBarElements';
+import { FaBars } from 'react-icons/fa';
+
+function NavBar({ toggle }){
+  return(
+    <>
+    <Nav>
+    <NavbarContainer>
+    <NavLogo to="/">Heinrich</NavLogo>
+    <MobileIcon onClick = {toggle}>
+    <FaBars />
+    </ MobileIcon>
+    <NavMenu>
+    <NavItem>
+    <NavLinks to="about">About</NavLinks>
+    </NavItem>
+    <NavItem>
+    <NavLinks to="technology">Technologies</NavLinks>
+    </NavItem>
+    <NavItem>
+    <NavLinks to="projects">Projects</NavLinks>
+    </NavItem>
+    </NavMenu>
+    <NavBtn>
+    <NavBtnLink to="/resume">Resume</NavBtnLink>
+    </NavBtn>
+    </NavbarContainer>
+    </Nav>
+    </>
+  )
+}
+
+export default NavBar;
