@@ -5,6 +5,7 @@
   font-family:'Encode Sans Expanded', sans-serif;
 }
 
+
 .homeLink{
   position:absolute;
   left:0;
@@ -274,6 +275,7 @@ transform:scale(1.1);
 
 .end{
   max-height:80em;
+  overflow: hidden;
 }
 
 .leetcode{
@@ -293,4 +295,9 @@ transform:scale(1.1);
   transform: scale(1.2);
   transition:transform 500ms ease;
   color:white;
+}
+
+.websiteLink{
+  position:absolute;
+  right:0;
 }
