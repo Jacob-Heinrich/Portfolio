@@ -297,7 +297,9 @@ transform:scale(1.1);
   color:white;
 }
 
-.websiteLink{
-  position:absolute;
-  right:0;
+.websiteCode{
+  color: #1e97f3;
+  position:relative;
+  left:77.5em;
+  top:10.5em;
 }

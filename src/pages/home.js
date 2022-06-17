@@ -50,6 +50,7 @@ function Home(){
     <AiOutlineMail className = "homeMail" size = "55px" />
     </a>
     <a href="https://leetcode.com/heinricjr/" target="_blank" rel="noopener noreferrer" className = "socialLink"><SiVisualstudiocode className = "leetcode" size = "50px"/><p className = "leetText">Leet Code</p></a>
+    <a href="https://github.com/Jacob-Heinrich/portfolio" target="_blank" rel="noopener noreferrer" className = "websiteCode">Built with React</a>
     </div>
     </div>
     </>
