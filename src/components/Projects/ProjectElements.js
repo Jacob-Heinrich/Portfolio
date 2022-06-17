@@ -4,8 +4,7 @@ import background from '../../images/background.jpg';
 
 
 export const ProjectsContainer = styled.div`
-  background: ${({lightBg})=>(lightBg ? '#f9f9f9' : '#010606')};
-  background-image:url(${background});
+  background-image: url(${background});
   height:860px;
 
   @media screen and (max-width:768px){
@@ -14,6 +13,7 @@ export const ProjectsContainer = styled.div`
 `
 
 export const ProjectsWrapper = styled.div`
+ background-image:url({background});
   display:grid;
   position:relative;
   grid-template-column: 10px 10px 10px;
@@ -30,14 +30,16 @@ export const ProjectsWrapper = styled.div`
 `
 
 export const Column1 = styled.div`
-  z-index:2;
-  position:relative;
+  z-index:1;
   background-color:black;
+  position:relative;
   margin-bottom:15px;
   padding: 0 15px;
   grid-column: 1;
   border:4px solid;
   border-radius: 2em;
+  max-height:16em;
+
 
 
   transition: transform 500ms ease;
@@ -65,7 +67,7 @@ export const Column1 = styled.div`
 `
 
 export const Column2 = styled.div`
-z-index:999;
+z-index:1;
 position:relative;
 background-color:black;
 margin-bottom:15px;
@@ -73,6 +75,8 @@ padding: 0 15px;
 grid-column: 2;
 border:4px solid;
 border-radius: 2em;
+max-height:16em;
+width:17em;
 
 
 transition: transform 500ms ease;
@@ -91,7 +95,7 @@ transition: transform 500ms ease;
   left:0px;
   top:50px;
   background-color:#01bf71;
-  width: 91%;
+  width: 80%;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 500ms ease;
@@ -99,7 +103,7 @@ transition: transform 500ms ease;
 `
 
 export const Column3 = styled.div`
-z-index:999;
+z-index:1;
 position:relative;
 background-color:black;
 margin-bottom:15px;
@@ -107,6 +111,7 @@ padding: 0 15px;
 grid-column: 3;
 border:4px solid;
 border-radius: 2em;
+max-height:16em;
 
 
 transition: transform 500ms ease;
@@ -163,7 +168,7 @@ transition: transform 500ms ease;
   background-color:#01bf71;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 500ms ease;
+  transition: transform 500ms ease-in-out;
 }
 `
 
@@ -179,9 +184,9 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.h1`
   position:relative;
-  color: #01bf71;
   left:20em;
-  top:2em;
+  top:1em;
+  color: #01bf71;
   text-decoration:underline;
 
   @media screen and (max-width:768px){
@@ -206,9 +211,10 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-  max-width: 420px;
+  margin-top:2em;
+  max-width: 200px;
   margin-bottom: 35px;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 24px;
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
@@ -220,13 +226,13 @@ export const Btn1 = styled.button`
   left:1em;
   display:inline-block;
   text-decoration:none;
-  background-color: #01bf71;
+  background-color: white;
   padding: 0.5em 1.25em;
   border-radius: 5em;
 
   &:hover,
   &:focus{
-    background-color:white;
+    background-color:#01bf71;
   }
 `
 
@@ -237,12 +243,28 @@ export const BtnTwo = styled.button`
   right:1em;
   display:inline-block;
   text-decoration:none;
-  background-color: #01bf71;
+  background-color: white;
   padding: 0.5em 1.25em;
   border-radius:5em;
 
   &:hover,
   &:focus{
-    background-color:white;
+    background-color:#01bf71;
+  }
+`
+
+export const BtnThree = styled.button`
+  cursor: pointer;
+  position: absolute;
+  bottom:4em;
+  left:10em;
+  text-decoration:none;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  border-radius:5em;
+
+  &:hover,
+  &:focus{
+    background-color:#01bf71;
   }
 `

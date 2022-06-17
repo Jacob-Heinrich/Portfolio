@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const TechnologyContainer = styled.div`
   background: ${({lightBg})=>(lightBg ? '#f9f9f9' : '#010606')};
+  height: 30em;
+  display:flex;
+  align-self:center;
+  position:relative;
 
   @media screen and (max-width:768px){
     padding: 100px 0;
@@ -10,6 +14,9 @@ export const TechnologyContainer = styled.div`
 
 export const TechnologyWrapper = styled.div`
   display:grid;
+  position:relative;
+  top:8em;
+  left:4.5em;
   z-index:1;
   height: 400px;
   width: 100%;
@@ -51,8 +58,8 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   position:relative;
-  left:1em;
-  margin-bottom:5em;
+  text-align:center;
+  margin-bottom:1em;
   color: #01bf71;
   font-size: 30px;
   line-height: 16px;

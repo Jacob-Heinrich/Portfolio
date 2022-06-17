@@ -51,7 +51,8 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   position:relative;
-  bottom:17em;
+  bottom:2em;
+  text-align:center;
   color: #01bf71;
   font-size: 16px;
   line-height: 16px;

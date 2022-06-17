@@ -10,13 +10,10 @@ function ResumeNavbar(){
     <>
     <Nav>
     <NavbarContainer>
-    <NavLogo to="/">Home</NavLogo>
+    <NavLogo to="/" className = "homeLink">Home</NavLogo>
     <a href = {Resume} className="resDownload">Download PDF Version</a>
     </NavbarContainer>
     </Nav>
-    <div class="res">
-    <img src = { ResumeJPG } className="resImage"/>
-    </div>
     </>
   )
 }

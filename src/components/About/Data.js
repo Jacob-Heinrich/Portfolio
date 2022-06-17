@@ -11,17 +11,3 @@ export const homeObjOne = {
   dark: true,
   darkText: true,
 };
-
-export const homeObjTwo = {
-  id: 'projects',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Education',
-  headline: 'Oregon State University',
-  description: 'BSc in Computer Science',
-  imgStart: true,
-  img: require('../../images/background-img.jpg'),
-  dark: true,
-  darkText: false,
-}

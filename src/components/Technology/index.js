@@ -8,24 +8,38 @@ function Technology(){
     <TechnologyContainer id = "technology">
       <TechnologyWrapper>
       <TextWrapper>
-        <TopLine>Technologies</TopLine>
       </TextWrapper>
         <TechnologyRow>
           <Column1>
             <Subtitle>
-            <p className="techItems">Python</p>
-            <p className="techItems">C++</p>
-            <p className="techItems">Javascript</p>
-            <p className="techItems">MongoDB</p>
-            <p className="techItems">HTML/CSS</p>
+            <div className="front">
+            <TopLine>Front-End Skills</TopLine>
+            <p className="techItems" id = "react">ReactJS</p>
+            <p className="techItems" id = "javascript">Javascript</p>
+            <p className="techItems" id = "html">HTML/CSS</p>
+            </div>
+            </Subtitle>
+            <Subtitle>
+            <div className = "back">
+            <TopLine>Back-End Skills</TopLine>
+            <p className="techItems" id = "node">NodeJS</p>
+            <p className="techItems" id = "express">Express</p>
+            <p className="techItems" id = "python">Python</p>
+            <p className="techItems" id = "c">C++</p>
+            </div>
+            <p className="techItems" id = "mongoDB">MongoDB</p>
+            </Subtitle>
+            <Subtitle>
+            <div className="tools">
+            <TopLine>Tools</TopLine>
+            <p className="techItems" id = "git">Git</p>
+            <p className="techItems" id = "vs">Vs Code</p>
+            <p className="techItems" id = "trello">Trello</p>
+            <p className="techItems" id = "unity">Unity</p>
+            </div>
             </Subtitle>
           </Column1>
           <Column2>
-            <Subtitle>
-            <p className="techItems">Express</p>
-            <p className="techItems">React</p>
-            <p className="techItems">NodeJS</p>
-            </Subtitle>
           </Column2>
         </TechnologyRow>
       </TechnologyWrapper>

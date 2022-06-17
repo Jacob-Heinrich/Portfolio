@@ -5,13 +5,42 @@
   font-family:'Encode Sans Expanded', sans-serif;
 }
 
-.technologyListOne{
-  list-style: none;
+.homeLink{
+  position:absolute;
+  left:0;
+  bottom:0;
+
 }
 
 .techItems{
   padding-bottom:1em;
+  padding-right:1em;
 }
+
+.front{
+  margin-bottom:3em;
+}
+
+.back{
+  margin-bottom:1em;
+}
+
+#react, #javascript, #html{
+  text-align:center;
+  display:inline;
+}
+
+
+#node, #express, #python,#c{
+  text-align:center;
+  display:inline;
+}
+
+#git, #vs, #unity, #trello{
+  text-align:center;
+  display:inline;
+}
+
 
 .techItems:hover{
   color: #1e97f3;
@@ -22,6 +51,11 @@ a{
   color:black;
 }
 
+.resumeContainer{
+  display:grid;
+  grid-column: 6em 6em 4em;
+}
+
 .resDownload{
   color:white;
   position:absolute;
@@ -30,12 +64,231 @@ a{
 }
 
 .res{
-  display:flex;
-  align-items: center;
-  justify-content: center;
+  grid-column:1/3;
+  position:relative;
+  left:1em;
+  background-color:black;
 }
 
 .resImage{
   width:100%;
-  height:100%;
+}
+
+.links{
+  grid-column:3/3;
+  background-color:black;
+}
+
+.links a{
+  display:block;
+}
+
+.aiFill{
+  opacity:70%;
+}
+
+.aiFill:hover{
+  opacity:100%;
+  transition:transform 500ms ease;
+  transform:scale(1.1);
+}
+
+.linkedin{
+  opacity:70%;
+}
+
+.linkedin:hover{
+  opacity:100%;
+  transition: transform 500ms ease;
+  transform:scale(1.1);
+}
+
+.nasa{
+  opacity:70%;
+}
+
+.nasa:hover{
+opacity:100%;
+transition: transform 500ms ease;
+transform:scale(1.1);
+}
+
+.exercise{
+  opacity:70%;
+}
+
+.exercise:hover{
+  opacity:100%;
+  transition: transform 500ms ease;
+  transform:scale(1.1);
+}
+
+.linkHeader{
+  color:white;
+  text-align:center;
+  margin-top:1em;
+}
+
+
+.socialLink{
+  position:relative;
+  top:4em;
+  text-align:center;
+  padding:5em;
+  color:#01bf71;
+}
+
+.exerciseImg{
+  position:relative;
+  top:1.2em;
+  width:20em;
+  transform:scale(1.1);
+  border-radius:2em;
+  opacity:80%;
+}
+
+
+.email{
+  position:absolute;
+  left:0;
+  margin: 20px auto;
+}
+
+.form{
+  border: 1px solid lightgray;
+  position:relative;
+  border-radius:5em;
+  padding:20px;
+  background-color:white;
+}
+
+.email label{
+  position:relative;
+  left:1em;
+  color:black;
+}
+
+#name, #email, #message{
+  display:block;
+  border-radius:1em;
+  position:relative;
+  margin-bottom:2em;
+  margin-top:.5em;
+  padding:1em;
+}
+
+
+#message{
+  width:20em;
+  height:5em;
+}
+
+#submit{
+  position:relative;
+  left:3em;
+  color:black;
+  background-color:white;
+  cursor: pointer;
+  position:relative;
+
+  text-decoration:none;
+  padding: 0.5em 4em;
+  border-radius: 5em;
+}
+
+#submit:hover{
+  background-color:#01bf71;
+}
+
+.end{
+  background-image: url('./images/background.jpg');
+}
+
+.footer{
+  height:26em;
+}
+
+
+.homeGit{
+  position:relative;
+  left:20em;
+  top:15em;
+}
+
+.homeGitText{
+  position:relative;
+  right:18.5em;
+  top:15em;
+}
+
+.homeGit:hover{
+  color:white;
+  transform: scale(1.2);
+  transition: transform 500ms ease;
+}
+
+.homeLinked{
+  position:relative;
+  left:25em;
+  top:11em;
+}
+
+.linkedinText{
+  position:relative;
+  top:11em;
+  right:8.5em;
+}
+
+.homeLinked:hover{
+  color:white;
+  transform: scale(1.2);
+  transition:transform 500ms ease;
+}
+
+.contact{
+  position:relative;
+  bottom:25em;
+}
+
+.homeMail{
+  color:#01bf71;
+  position:relative;
+  left:46.5em;
+  top:8em;
+}
+
+.homeMail:hover{
+  transform: scale(1.2);
+  transition:transform 500ms ease;
+  color:white;
+}
+
+.emailText{
+  color:#01bf71;
+  position:relative;
+  left:42em;
+  top:12.6em;
+}
+
+.end{
+  max-height:80em;
+}
+
+.leetcode{
+  position:relative;
+  left:50em;
+  top:4em;
+}
+
+.leetText{
+  position:relative;
+  left:15em;
+  top:4em;
+  max-height:.2em;
+}
+
+.leetcode:hover{
+  transform: scale(1.2);
+  transition:transform 500ms ease;
+  color:white;
 }

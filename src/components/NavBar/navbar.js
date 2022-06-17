@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../App.css';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavBarElements';
 import { FaBars } from 'react-icons/fa';
 import Resume from '../../images/Resume.pdf';
 
 function NavBar({ toggle }){
+
   return(
     <>
     <Nav>
@@ -22,6 +23,9 @@ function NavBar({ toggle }){
     </NavItem>
     <NavItem>
     <NavLinks to="projects">Projects</NavLinks>
+    </NavItem>
+    <NavItem>
+    <NavLinks to="footer">Contact Me</NavLinks>
     </NavItem>
     </NavMenu>
     <NavBtn>
