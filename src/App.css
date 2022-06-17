@@ -152,12 +152,13 @@ transform:scale(1.1);
   position:absolute;
   left:0;
   margin: 20px auto;
+  z-index:9999;
 }
 
 .form{
   border: 1px solid lightgray;
   position:relative;
-  border-radius:5em;
+  border-radius:1em;
   padding:20px;
   background-color:white;
 }
@@ -202,6 +203,7 @@ transform:scale(1.1);
 
 .end{
   background-image: url('./images/background.jpg');
+  height:65em;
 }
 
 .footer{

@@ -18,7 +18,7 @@ function Projects(){
               that day.
               </Subtitle>
             </TextWrapper>
-            <Btn1><a href = "https://nasa-apod-alpha.vercel.app" target="_blank" rel="noopener noreferrer">ProjectLink</a></Btn1>
+            <Btn1><a href = "https://nasa-apod-alpha.vercel.app" target="_blank" rel="noopener noreferrer">View</a></Btn1>
             <BtnTwo><a href = "https://github.com/Jacob-Heinrich/nasaAPOD/" target="_blank" rel="noopener noreferrer">Code</a></BtnTwo>
           </Column1>
           <Column2>
@@ -29,7 +29,7 @@ function Projects(){
             entered by the user.
             </Subtitle>
           </TextWrapper>
-          <Btn1><a href = "https://hilarious-taffy-ea5582.netlify.app/" target="_blank" rel="noopener noreferrer">Project Link</a></Btn1>
+          <Btn1><a href = "https://hilarious-taffy-ea5582.netlify.app/" target="_blank" rel="noopener noreferrer">View</a></Btn1>
           <BtnTwo><a href = "https://github.com/Jacob-Heinrich/MERNexerciseclient" target="_blank" rel="noopener noreferrer">React Code</a></BtnTwo>
           <BtnThree><a href = "https://github.com/Jacob-Heinrich/MERNexercise" target="_blank" rel="noopener noreferrer">Rest API Code</a></BtnThree>
           </Column2>

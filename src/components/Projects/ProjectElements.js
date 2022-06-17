@@ -5,7 +5,7 @@ import background from '../../images/background.jpg';
 
 export const ProjectsContainer = styled.div`
   background-image: url(${background});
-  height:860px;
+  height:600px;
 
   @media screen and (max-width:768px){
     padding: 100px 0;
