@@ -11,7 +11,7 @@ function Resume(){
     <ResumeNavbar />
     <div className = "resumeContainer">
     <div className="res">
-    <img src = { ResumeJPG } className="resImage"/>
+    <img src = { ResumeJPG } alt="resumePic" className="resImage"/>
     </div>
     <div className="links">
     <h1 className="linkHeader">Links</h1>

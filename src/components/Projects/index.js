@@ -1,7 +1,6 @@
 import React from 'react';
 import { ProjectsContainer, ProjectsWrapper, TopLine,Column1,Column2, Column3, Column4, TextWrapper, Heading, Subtitle, Btn1, BtnTwo, BtnThree} from './ProjectElements';
-import { Link } from 'react-router-dom';
-import workout from '../../images/workout.png';
+
 
 function Projects(){
   return(

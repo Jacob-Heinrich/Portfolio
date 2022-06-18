@@ -6,7 +6,7 @@ import HeroSection from '../components/HeroSection/index';
 import About from '../components/About/index';
 import Technology from '../components/Technology/index';
 import Projects from '../components/Projects/index';
-import { homeObjOne, homeObjTwo } from '../components/About/Data';
+import { homeObjOne } from '../components/About/Data';
 import EmbeddedEmail from '../components/email';
 import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
@@ -20,12 +20,6 @@ function Home(){
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-
-  const sendMail = () => {
-  const mailto: string =
-    "mailto:jacob.heinrich09@gmail.com?subject=Test subject&body=Body content";
-  window.location.href = mailto;
-}
 
 
   return(
