@@ -34,8 +34,12 @@ function Projects(){
           </Column2>
           <Column3>
           <TextWrapper>
-            <Heading>Assembly Language Sort</Heading>
-            <Subtitle>This is the subtitle</Subtitle>
+            <Heading>String Sort</Heading>
+            <Subtitle>
+            x86 assembly language program that will
+            sort a string of numbers and
+            display the new sorted string.
+            </Subtitle>
           </TextWrapper>
           <BtnTwo><a href="https://github.com/Jacob-Heinrich/assemblyArraySort" target="_blank" rel="noopener noreferrer">Code</a></BtnTwo>
           </Column3>

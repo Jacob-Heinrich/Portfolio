@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import jellyFish from '../../images/jellyfish.jpg';
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -9,6 +10,10 @@ export const HeroContainer = styled.div`
   height: 800px;
   position: relative;
   z-index:1;
+
+  @media screen and (max-width:768px){
+    background-image:url(${jellyFish});
+  }
 `
 
 export const HeroBg = styled.div`
@@ -28,6 +33,10 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+
+  @media screen and (max-width:768px){
+    display:none;
+  }
 `
 
 export const HeroContent = styled.div`

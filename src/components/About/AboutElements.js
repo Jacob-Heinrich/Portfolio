@@ -5,6 +5,8 @@ export const AboutContainer = styled.div`
 
   @media screen and (max-width:768px){
     padding: 100px 0;
+    margin-top:-8em;
+    background:black;
   }
 `
 
@@ -70,6 +72,7 @@ export const TopLine = styled.p`
 export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 40px;
+  font-family:Quicksand;
   line-height: 1.1;
   font-weight:600;
   color: ${({ lightText })=> (lightText ? '#1e97f3' : '010606')};
@@ -83,8 +86,13 @@ export const Subtitle = styled.p`
   max-width: 420px;
   margin-bottom: 35px;
   font-size: 25px;
-  line-height: 24px;
+  font-family:Quicksand;
+  line-height: 30px;
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+
+  @media screen and (max-width:768px){
+    color:white;
+  }
 `
 
 export const ImgWrap = styled.div`
@@ -101,5 +109,6 @@ export const Img = styled.img`
 
   @media screen and (max-width:900px){
     height:40em;
+    display:none;
   }
 `

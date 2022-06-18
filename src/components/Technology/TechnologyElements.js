@@ -9,6 +9,7 @@ export const TechnologyContainer = styled.div`
 
   @media screen and (max-width:768px){
     padding: 100px 0;
+    margin-top:-20em;
   }
 `
 
@@ -25,6 +26,11 @@ export const TechnologyWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+
+  @media screen and (max-width:768px){
+    top:4em;
+  }
+
 `
 
 export const TechnologyRow = styled.div`
