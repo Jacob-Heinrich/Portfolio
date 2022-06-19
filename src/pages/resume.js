@@ -18,7 +18,7 @@ function Resume(){
     <a href="https://github.com/Jacob-Heinrich" target="_blank" rel="noopener noreferrer" className = "socialLink"><AiFillGithub className = "aiFill" size = "100px"/><p>GitHub</p></a>
     <a href="https://www.linkedin.com/in/jacob-heinrich149/" target="_blank" rel="noopener noreferrer" className = "socialLink"><BsLinkedin className = "linkedin" size = "75px"/><p>LinkedIn</p></a>
     <a href="https://nasa-apod-alpha.vercel.app" target="_blank" rel="noopener noreferrer" className = "socialLink"><BiPlanet className = "nasa" size = "75px"/><p>NASA APOD</p></a>
-    <a href="https://hilarious-taffy-ea5582.netlify.app/" target="_blank" rel="noopener noreferrer" className = "socialLink"><BiDumbbell className = "exercise" size = "75px"/><p>Exercise Tracker</p></a>
+    <a href="https://mern-workout-tracker.netlify.app/" target="_blank" rel="noopener noreferrer" className = "socialLink"><BiDumbbell className = "exercise" size = "75px"/><p>Exercise Tracker</p></a>
     </div>
     </div>
     </>
