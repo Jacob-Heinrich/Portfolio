@@ -32,7 +32,7 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://jacob-heinrich-portfolio.herokuapp.com">View Demo</a>
     ·
     <a href="https://github.com/Jacob-Heinrich/portfolio/issues">Report Bug</a>
     ·
