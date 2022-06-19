@@ -28,7 +28,7 @@ function Projects(){
             entered by the user.
             </Subtitle>
           </TextWrapper>
-          <Btn1><a href = "https://hilarious-taffy-ea5582.netlify.app/" target="_blank" rel="noopener noreferrer">View</a></Btn1>
+          <Btn1><a href = "https://mern-workout-tracker.netlify.app/" target="_blank" rel="noopener noreferrer">View</a></Btn1>
           <BtnTwo><a href = "https://github.com/Jacob-Heinrich/MERNexerciseclient" target="_blank" rel="noopener noreferrer">React Code</a></BtnTwo>
           <BtnThree><a href = "https://github.com/Jacob-Heinrich/MERNexercise" target="_blank" rel="noopener noreferrer">Rest API Code</a></BtnThree>
           </Column2>
