@@ -22,7 +22,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jacob-heinrich/portfolio">
-    <img src="./images/readme.jpg" alt="Logo" width="80" height="80">
+    <img src= "./readme.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Portfolio</h3>
