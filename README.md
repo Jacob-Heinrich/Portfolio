@@ -22,13 +22,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/jacob-heinrich/portfolio">
+    <img src="./images/readme.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Portfolio</h3>
 
   <p align="center">
-    project_description
-    <p>My portfolio website built with React using styled components.</p>
+    Portfolio Website built with React.js
     <br />
     <br />
     <br />
@@ -105,6 +105,8 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
