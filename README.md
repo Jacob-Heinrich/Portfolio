@@ -21,14 +21,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/jacob-heinrich/portfolio">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Portfolio</h3>
 
   <p align="center">
     project_description
+    <p>My portfolio website built with React using styled components.</p>
     <br />
     <br />
     <br />
@@ -106,22 +106,12 @@ This is an example of how to list things you need to use the software and how to
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-This is my portfolio website. Built with React using styled components and videos/images from Pexels.
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Jacob Heinrich] - jacob.heinrich09@gmail.com
+Your Name - Jacob Heinrich - jacob.heinrich09@gmail.com
 
-Project Link: [ https://jacob-heinrich-portfolio.herokuapp.com/]
+Project Link: https://jacob-heinrich-portfolio.herokuapp.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
