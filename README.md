@@ -22,7 +22,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/jacob-heinrich/portfolio">
-    <img src= "./readme.jpg" alt="Logo" width="270" height="200">
   </a>
 
 <h3 align="center">Portfolio</h3>
@@ -66,6 +65,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+![Product Name Screen Shot](readme.jpg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
