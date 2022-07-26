@@ -1,6 +1,6 @@
 import React from 'react';
 import ResumeNavbar from '../components/NavBar/resumeNavbar';
-import ResumeJPG from '../images/Resume.jpg';
+import ResumeJPG from '../images/resume.jpg';
 import { AiFillGithub } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import { BiPlanet, BiDumbbell } from 'react-icons/bi';
