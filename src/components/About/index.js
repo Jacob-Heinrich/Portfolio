@@ -4,7 +4,7 @@ import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, 
 function About( {lightBg, id, imgStart, topLine, lightText, headline, darkText, description, img} ){
   return(
     <>
-    <AboutContainer lightBg = {lightBg} id = {id}>
+    <AboutContainer lightBg = {lightBg} id = {id} >
       <AboutWrapper>
         <AboutRow imgStart = {imgStart}>
           <Column1>

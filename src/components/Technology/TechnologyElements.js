@@ -26,11 +26,6 @@ export const TechnologyWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
-
-  @media screen and (max-width:768px){
-    top:4em;
-  }
-
 `
 
 export const TechnologyRow = styled.div`
@@ -38,16 +33,16 @@ export const TechnologyRow = styled.div`
   grid-auto-column: minmax(auto,1fr);
   align-items:center;
   grid-template-areas: ${({imgStart})=>(imgStart ? `'col2 col1'` : `'col1 col2'`)};
-
-  @media screen and (max-width: 768px){
-    grid-template-areas: ${({imgStart})=>(imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
-  }
 `
 
 export const Column1 = styled.div`
   margin-bottom:15px;
   padding: 0 15px;
   grid-area: col1;
+
+  @media screen and (max-width:768px){
+    margin-left:2em;
+  }
 `
 
 export const Column2 = styled.div`
@@ -73,11 +68,6 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   text-decoration: underline;
-
-  @media screen and (max-width:900px){
-    position:relative;
-    bottom:10px;
-  }
 `
 
 export const Subtitle = styled.p`

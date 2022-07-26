@@ -9,9 +9,9 @@ function SideBar({ isOpen, toggle}) {
     </Icon>
     <SidebarWrapper>
     <SidebarMenu>
-    <SidebarLink to="#about">About</SidebarLink>
-    <SidebarLink to="technologies">Technologies</SidebarLink>
-    <SidebarLink to="education">Education</SidebarLink>
+    <SidebarLink to="about">About</SidebarLink>
+    <SidebarLink to="technology">Technologies</SidebarLink>
+    <SidebarLink to="projects">Projects</SidebarLink>
     </SidebarMenu>
     <SideBtnWrap>
     <SidebarRoute to="/resume">Resume</SidebarRoute>

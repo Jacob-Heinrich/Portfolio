@@ -26,8 +26,8 @@ function Technology(){
             <p className="techItems" id = "express">Express</p>
             <p className="techItems" id = "python">Python</p>
             <p className="techItems" id = "c">C++</p>
-            </div>
             <p className="techItems" id = "mongoDB">MongoDB</p>
+            </div>
             </Subtitle>
             <Subtitle>
             <div className="tools">

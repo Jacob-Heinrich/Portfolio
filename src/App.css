@@ -18,6 +18,7 @@
   padding-right:1em;
 }
 
+
 .front{
   margin-bottom:3em;
 }
@@ -32,7 +33,7 @@
 }
 
 
-#node, #express, #python,#c{
+#node, #express, #python,#c,#mongoDB{
   text-align:center;
   display:inline;
 }
@@ -214,7 +215,7 @@ transform:scale(1.1);
 
 .homeGit{
   position:relative;
-  left:20em;
+  left:19.5em;
   top:15em;
 }
 
@@ -232,7 +233,7 @@ transform:scale(1.1);
 
 .homeLinked{
   position:relative;
-  left:25em;
+  left:24.5em;
   top:11em;
 }
 
@@ -250,13 +251,14 @@ transform:scale(1.1);
 
 .contact{
   position:relative;
-  bottom:25em;
+  bottom:1em;
+  left:5em;
 }
 
 .homeMail{
   color:#01bf71;
   position:relative;
-  left:46.5em;
+  left:47em;
   top:8em;
 }
 
@@ -273,14 +275,9 @@ transform:scale(1.1);
   top:12.6em;
 }
 
-.end{
-  max-height:80em;
-  overflow: hidden;
-}
-
 .leetcode{
   position:relative;
-  left:50em;
+  left:49.5em;
   top:4em;
 }
 
@@ -300,6 +297,55 @@ transform:scale(1.1);
 .websiteCode{
   color: #1e97f3;
   position:relative;
-  left:77.5em;
+  left:70em;
   top:10.5em;
+}
+
+@media screen and (max-width: 768px){
+
+  body{
+    overflow-x:hidden;
+  }
+  .techItems{
+    display:block !important;
+  }
+
+  .front{
+    min-width:15em;
+  }
+
+  .end{
+    background-image:none;
+    background-color:black;
+    height:110em;
+    overflow:hidden;
+  }
+
+  .contact{
+    position:relative;
+    top:10em;
+  }
+
+  #emailForm{
+    visibility: hidden;
+  }
+
+  .linkedinText{
+    top:0;
+    left:-6em;
+    margin-bottom:8em;
+  }
+
+  .leetText{
+    top:0;
+    left:-5.5em;
+    margin-bottom:10em;
+  }
+
+  .homeGitText{
+    margin-top:8em;
+    top:0;
+    right:6em;
+    margin-bottom:-11em;
+  }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import { HeroContainer,HeroBg, VideoBg, HeroContent } from './HeroElements.js';
 import fish from '../../videos/fish.mp4';
 
+
 function Hero(){
   return(
     <>

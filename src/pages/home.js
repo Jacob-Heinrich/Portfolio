@@ -31,9 +31,7 @@ function Home(){
     <Technology />
     <div className = "end">
     <Projects />
-    <div className = "footer" id="contact">
-    <EmbeddedEmail />
-    </div>
+    <EmbeddedEmail/>
     <div className = "contact">
     <a href="https://github.com/Jacob-Heinrich" target="_blank" rel="noopener noreferrer" className = "socialLink"><AiFillGithub className = "homeGit" size = "50px"/><p className = "homeGitText">GitHub</p></a>
     <a href="https://www.linkedin.com/in/jacob-heinrich149/" target="_blank" rel="noopener noreferrer" className = "socialLink"><BsLinkedin className = "homeLinked" size = "45px"/><p className = "linkedinText">LinkedIn</p></a>

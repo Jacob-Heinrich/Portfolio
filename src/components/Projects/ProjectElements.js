@@ -9,21 +9,19 @@ export const ProjectsContainer = styled.div`
 
   @media screen and (max-width:768px){
     padding: 100px 0;
-    height:1025px;
     background-image:none;
     background-color:black;
-
+    margin-top:30em;
   }
 `
 
 export const ProjectsWrapper = styled.div`
- background-image:url({background});
+  background-image:url({background});
   display:grid;
   position:relative;
   grid-template-column: 10px 10px 10px;
   grid-template-row: 5em;
   gap: 0 10px;
-  // z-index:1;
   height:400px;
   width: 100%;
   margin-right: auto;
@@ -35,6 +33,7 @@ export const ProjectsWrapper = styled.div`
   @media screen and (max-width:768px){
     grid-template-column:5em;
     grid-template-row:2em 2em 2em;
+    background-color:black;
   }
 `
 
@@ -214,7 +213,7 @@ export const TopLine = styled.h1`
   text-decoration:underline;
 
   @media screen and (max-width:768px){
-    left:2.5em;
+    left:3.5em;
     top:-2em;
     margin-bottom:-5em;
   }
