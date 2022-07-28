@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 import jellyFish from '../../images/jellyfish.jpg';
+import img from '../../images/backgroundimg.jpg';
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
+  background-image:url(${img});
+  background-size:1450px 1250px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +13,7 @@ export const HeroContainer = styled.div`
   height: 800px;
   position: relative;
   z-index:1;
+  overflow-x:hidden;
 
   @media screen and (max-width:768px){
     background-image:url(${jellyFish});
@@ -27,21 +31,10 @@ export const HeroBg = styled.div`
   overflow:hidden;
 `
 
-export const VideoBg = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #232a34;
-
-  @media screen and (max-width:768px){
-    display:none;
-  }
-`
 
 export const HeroContent = styled.div`
   color:white;
   position:relative;
-  top:0;
-  opacity:50%;
+  top:-7em;
+  opacity:80%;
 `

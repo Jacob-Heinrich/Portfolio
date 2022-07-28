@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-  background: ${({lightBg})=>(lightBg ? '#f9f9f9' : '#010606')};
+  background: ${({lightBg})=>(lightBg ? '#E5E5E5' : '#010606')};
 
   @media screen and (max-width:768px){
     padding: 100px 0;
@@ -55,7 +55,7 @@ export const TopLine = styled.p`
   position:relative;
   bottom:2em;
   text-align:center;
-  color: #01bf71;
+  color: #444444;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -75,7 +75,8 @@ export const Heading = styled.h1`
   font-family:Quicksand;
   line-height: 1.1;
   font-weight:600;
-  color: ${({ lightText })=> (lightText ? '#1e97f3' : '010606')};
+  color: ${({ lightText })=> (lightText ? '#DA0037' : '010606')};
+  opacity:70%;
 
   @media screen and (max-width:480px){
     font-size: 32px;
@@ -88,7 +89,7 @@ export const Subtitle = styled.p`
   font-size: 25px;
   font-family:Quicksand;
   line-height: 30px;
-  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+  color: ${({darkText}) => (darkText ? '#444444' : '#fff')};
 
   @media screen and (max-width:768px){
     color:white;
@@ -103,6 +104,7 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
+  height:30em;
   padding-right: 0;
   border: 2px solid;
   border-radius: 5em;

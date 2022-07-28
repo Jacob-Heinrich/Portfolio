@@ -34,14 +34,14 @@ function Projects(){
           </Column2>
           <Column3>
           <TextWrapper>
-            <Heading>String Sort</Heading>
+            <Heading>Email Microservice</Heading>
             <Subtitle>
-            x86 assembly language program that will
-            sort a string of numbers and
-            display the new sorted string.
+            A micro-service written in Python with Tkinter and RabbitMQ to
+            add email functionality to web applications. Allows site visitors to
+            directly email site owner.
             </Subtitle>
           </TextWrapper>
-          <BtnTwo><a href="https://github.com/Jacob-Heinrich/assemblyArraySort" target="_blank" rel="noopener noreferrer">Code</a></BtnTwo>
+          <BtnTwo><a href="https://github.com/Jacob-Heinrich/email-microservice" target="_blank" rel="noopener noreferrer">Code</a></BtnTwo>
           </Column3>
       </ProjectsWrapper>
     </ProjectsContainer>

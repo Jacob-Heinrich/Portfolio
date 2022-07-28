@@ -11,6 +11,9 @@ import EmbeddedEmail from '../components/email';
 import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import { SiVisualstudiocode } from 'react-icons/si';
+import Swing from '../components/Spline/Swing/swing.js';
+import Saturn from '../components/Spline/Saturn/saturn.js';
+
 
 
 function Home(){
@@ -26,9 +29,17 @@ function Home(){
     <>
     <SideBar isOpen = {isOpen} toggle = {toggle} />
     <NavBar toggle = {toggle}/>
-    <HeroSection />
+    <div id = "mainContain">
+    <section>
+    <Saturn />
+    </section>
+    <section>
     <About {...homeObjOne} />
+    </section>
+    <section>
     <Technology />
+    </section>
+    <section>
     <div className = "end">
     <Projects />
     <EmbeddedEmail/>
@@ -44,6 +55,8 @@ function Home(){
     <a href="https://leetcode.com/heinricjr/" target="_blank" rel="noopener noreferrer" className = "socialLink"><SiVisualstudiocode className = "leetcode" size = "50px"/><p className = "leetText">Leet Code</p></a>
     <a href="https://github.com/Jacob-Heinrich/portfolio" target="_blank" rel="noopener noreferrer" className = "websiteCode">Built with React</a>
     </div>
+    </div>
+    </section>
     </div>
     </>
   )

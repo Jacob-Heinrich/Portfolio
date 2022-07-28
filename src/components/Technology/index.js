@@ -13,19 +13,22 @@ function Technology(){
           <Column1>
             <Subtitle>
             <div className="front">
-            <TopLine>Front-End Skills</TopLine>
-            <p className="techItems" id = "react">ReactJS</p>
+            <TopLine>Languages</TopLine>
+            <p className="techItems" id = "react">Python</p>
             <p className="techItems" id = "javascript">Javascript</p>
             <p className="techItems" id = "html">HTML/CSS</p>
+            <p className="techItems" id = "cPlus">C++</p>
+            <p className="techItems" id = "sql">SQL</p>
+            <p className="techItems" id = "c">C</p>
             </div>
             </Subtitle>
             <Subtitle>
             <div className = "back">
-            <TopLine>Back-End Skills</TopLine>
+            <TopLine>Frameworks, Libraries, and DBMS</TopLine>
             <p className="techItems" id = "node">NodeJS</p>
             <p className="techItems" id = "express">Express</p>
-            <p className="techItems" id = "python">Python</p>
-            <p className="techItems" id = "c">C++</p>
+            <p className="techItems" id = "react">ReactJS</p>
+            <p className="techItems" id = "mySQL">MySQL</p>
             <p className="techItems" id = "mongoDB">MongoDB</p>
             </div>
             </Subtitle>
@@ -33,9 +36,8 @@ function Technology(){
             <div className="tools">
             <TopLine>Tools</TopLine>
             <p className="techItems" id = "git">Git</p>
-            <p className="techItems" id = "vs">Vs Code</p>
-            <p className="techItems" id = "trello">Trello</p>
-            <p className="techItems" id = "unity">Unity</p>
+            <p className="techItems" id = "vs">Unreal Engine</p>
+            <p className="techItems" id = "trello">Jira</p>
             </div>
             </Subtitle>
           </Column1>

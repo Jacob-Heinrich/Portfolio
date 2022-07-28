@@ -21,31 +21,21 @@
 
 .front{
   margin-bottom:3em;
+  text-align: center;
 }
 
 .back{
   margin-bottom:1em;
-}
-
-#react, #javascript, #html{
   text-align:center;
-  display:inline;
 }
 
-
-#node, #express, #python,#c,#mongoDB{
+.techItems{
   text-align:center;
-  display:inline;
+  display:inline-block;
+  color:#171717;
 }
-
-#git, #vs, #unity, #trello{
-  text-align:center;
-  display:inline;
-}
-
-
 .techItems:hover{
-  color: #1e97f3;
+  color: #DA0037;
 }
 
 a{
@@ -137,7 +127,7 @@ transform:scale(1.1);
   top:4em;
   text-align:center;
   padding:5em;
-  color:#01bf71;
+  color:#E3A3B3;
 }
 
 .exerciseImg{
@@ -162,7 +152,7 @@ transform:scale(1.1);
   position:relative;
   border-radius:1em;
   padding:20px;
-  background-color:white;
+  background-color:#E5E5E5;
 }
 
 .email label{
@@ -178,6 +168,11 @@ transform:scale(1.1);
   margin-bottom:2em;
   margin-top:.5em;
   padding:1em;
+}
+
+.tools{
+  margin-top:2em;
+  text-align: center;
 }
 
 
@@ -200,12 +195,14 @@ transform:scale(1.1);
 }
 
 #submit:hover{
-  background-color:#01bf71;
+  background-color:#E3A3B3;
 }
 
 .end{
-  background-image: url('./images/background.jpg');
+  background-color: #444444;
   height:65em;
+  width:100%;
+  overflow-x:hidden;
 }
 
 .footer{
@@ -256,7 +253,7 @@ transform:scale(1.1);
 }
 
 .homeMail{
-  color:#01bf71;
+  color:#E3A3B3;
   position:relative;
   left:47em;
   top:8em;
@@ -269,7 +266,7 @@ transform:scale(1.1);
 }
 
 .emailText{
-  color:#01bf71;
+  color:#E3A3B3;
   position:relative;
   left:42em;
   top:12.6em;
@@ -301,8 +298,18 @@ transform:scale(1.1);
   top:10.5em;
 }
 
-@media screen and (max-width: 768px){
+.swing{
+  background-color:#000C24;
+  position:relative;
+}
 
+.saturn{
+  height:48em;
+}
+
+
+
+@media screen and (max-width: 768px){
   body{
     overflow-x:hidden;
   }
@@ -316,7 +323,6 @@ transform:scale(1.1);
 
   .end{
     background-image:none;
-    background-color:black;
     height:110em;
     overflow:hidden;
   }
@@ -347,5 +353,10 @@ transform:scale(1.1);
     top:0;
     right:6em;
     margin-bottom:-11em;
+  }
+
+  .saturn{
+    max-width:100vw;
+    overflow-x:hidden;
   }
 }

@@ -1,16 +1,13 @@
 import styled from 'styled-components';
-import background from '../../images/background.jpg';
 
 
 
 export const ProjectsContainer = styled.div`
-  background-image: url(${background});
+  background-color: #444444;
   height:600px;
 
   @media screen and (max-width:768px){
     padding: 100px 0;
-    background-image:none;
-    background-color:black;
     margin-top:30em;
   }
 `
@@ -39,7 +36,7 @@ export const ProjectsWrapper = styled.div`
 
 export const Column1 = styled.div`
   z-index:1;
-  background-color:black;
+  background-color:#E5E5E5;
   position:relative;
   margin-bottom:15px;
   padding: 0 15px;
@@ -68,7 +65,7 @@ export const Column1 = styled.div`
     height:3px;
     left:0;
     top:50px;
-    background-color:#01bf71;
+    background-color:#DA0037;
     width: 78%;
     transform: scaleX(0);
     transform-origin: left;
@@ -80,7 +77,7 @@ export const Column1 = styled.div`
 export const Column2 = styled.div`
 z-index:1;
 position:relative;
-background-color:black;
+background-color:#E5E5E5;
 margin-bottom:15px;
 padding: 0 15px;
 grid-column: 2;
@@ -111,7 +108,7 @@ transition: transform 500ms ease;
   height:3px;
   left:0px;
   top:50px;
-  background-color:#01bf71;
+  background-color:#DA0037;
   width: 85%;
   transform: scaleX(0);
   transform-origin: left;
@@ -122,7 +119,7 @@ transition: transform 500ms ease;
 export const Column3 = styled.div`
 z-index:1;
 position:relative;
-background-color:black;
+background-color:#E5E5E5;
 margin-bottom:15px;
 padding: 0 15px;
 grid-column: 3;
@@ -150,10 +147,10 @@ transition: transform 500ms ease;
   content: "";
   position:absolute;
   height:3px;
-  width: 68%;
+  width: 95%;
   left:0px;
   top:50px;
-  background-color:#01bf71;
+  background-color:#DA0037;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 500ms ease;
@@ -188,7 +185,7 @@ transition: transform 500ms ease;
   width: 95%;
   left:0px;
   top:50px;
-  background-color:#01bf71;
+  background-color:#DA0037;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 500ms ease-in-out;
@@ -207,10 +204,16 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.h1`
   position:relative;
-  left:20em;
-  top:1em;
-  color: #01bf71;
-  text-decoration:underline;
+  text-align:center;
+  top:3em;
+  right:.5em;
+  color: #E5E5E5;
+  font-size: 30px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  text-decoration: underline;
 
   @media screen and (max-width:768px){
     left:3.5em;
@@ -220,7 +223,7 @@ export const TopLine = styled.h1`
 `
 
 export const Heading = styled.h1`
-  color:white;
+  color:#444444;
   margin-bottom: 24px;
   position:relative;
   top:1em;
@@ -241,7 +244,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 15px;
   line-height: 24px;
-  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+  color: ${({darkText}) => (darkText ? '#444444' : '#444444')};
 
   @media screen and (max-width:768px){
     font-size:13px;
@@ -262,7 +265,7 @@ export const Btn1 = styled.button`
 
   &:hover,
   &:focus{
-    background-color:#01bf71;
+    background-color:#E3A3B3;
   }
 `
 
@@ -279,7 +282,7 @@ export const BtnTwo = styled.button`
 
   &:hover,
   &:focus{
-    background-color:#01bf71;
+    background-color:#E3A3B3;
   }
 `
 
@@ -295,6 +298,6 @@ export const BtnThree = styled.button`
 
   &:hover,
   &:focus{
-    background-color:#01bf71;
+    background-color:#E3A3B3;
   }
 `

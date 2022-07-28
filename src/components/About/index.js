@@ -1,5 +1,7 @@
 import React from 'react';
 import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './AboutElements';
+import Swing from '../Spline/Swing/swing.js';
+
 
 function About( {lightBg, id, imgStart, topLine, lightText, headline, darkText, description, img} ){
   return(

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const TechnologyContainer = styled.div`
-  background: ${({lightBg})=>(lightBg ? '#f9f9f9' : '#010606')};
-  height: 30em;
+  background: ${({lightBg})=>(lightBg ? '#E5E5E5' : '#E5E5E5')};
+  height: 40em;
   display:flex;
   align-self:center;
   position:relative;
@@ -61,8 +61,8 @@ export const TopLine = styled.p`
   position:relative;
   text-align:center;
   margin-bottom:1em;
-  color: #01bf71;
-  font-size: 30px;
+  color: #DA0037;
+  font-size: 15px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;

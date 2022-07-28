@@ -98,10 +98,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkRouter)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #DA0037;
   white-space:nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: white;
   font-size: 16px;
   outline:none;
   border:none;
@@ -111,7 +111,7 @@ export const NavBtnLink = styled(LinkRouter)`
 
   &:hover{
     transition: all .2s ease-in-out;
-    background: #ffff;
-    color: #010606;
+    background: #E3A3B3;
+    color: black;
   }
 `

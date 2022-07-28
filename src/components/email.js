@@ -26,7 +26,7 @@ export default function EmbeddedEmail() {
             e.target.reset();
         }
     return (
-      <div className = "email" id = "emailForm">
+      <div className = "email" id = "footer">
         <form onSubmit={sendEmail} className = 'form'>
             <input type='hidden' name='contact_number'className = "nameInput"/>
             <label for='name'>Name</label>
