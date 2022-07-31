@@ -30,16 +30,9 @@ function Home(){
     <SideBar isOpen = {isOpen} toggle = {toggle} />
     <NavBar toggle = {toggle}/>
     <div id = "mainContain">
-    <section>
     <Saturn />
-    </section>
-    <section>
     <About {...homeObjOne} />
-    </section>
-    <section>
     <Technology />
-    </section>
-    <section>
     <div className = "end">
     <Projects />
     <EmbeddedEmail/>
@@ -56,7 +49,6 @@ function Home(){
     <a href="https://github.com/Jacob-Heinrich/portfolio" target="_blank" rel="noopener noreferrer" className = "websiteCode">Built with React</a>
     </div>
     </div>
-    </section>
     </div>
     </>
   )

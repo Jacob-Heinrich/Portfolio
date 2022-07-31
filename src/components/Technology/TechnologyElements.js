@@ -10,6 +10,8 @@ export const TechnologyContainer = styled.div`
   @media screen and (max-width:768px){
     padding: 100px 0;
     margin-top:-20em;
+    height:30em;
+    overflow-x:hidden;
   }
 `
 

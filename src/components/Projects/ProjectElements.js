@@ -8,7 +8,8 @@ export const ProjectsContainer = styled.div`
 
   @media screen and (max-width:768px){
     padding: 100px 0;
-    margin-top:30em;
+    margin-top:1em;
+    margin-bottom:30em;
   }
 `
 
@@ -30,7 +31,7 @@ export const ProjectsWrapper = styled.div`
   @media screen and (max-width:768px){
     grid-template-column:5em;
     grid-template-row:2em 2em 2em;
-    background-color:black;
+    background-color:#444444;
   }
 `
 
@@ -216,7 +217,6 @@ export const TopLine = styled.h1`
   text-decoration: underline;
 
   @media screen and (max-width:768px){
-    left:3.5em;
     top:-2em;
     margin-bottom:-5em;
   }

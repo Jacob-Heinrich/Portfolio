@@ -127,7 +127,7 @@ transform:scale(1.1);
   top:4em;
   text-align:center;
   padding:5em;
-  color:#E3A3B3;
+  color:#DA0037;
 }
 
 .exerciseImg{
@@ -231,12 +231,12 @@ transform:scale(1.1);
 .homeLinked{
   position:relative;
   left:24.5em;
-  top:11em;
+  top:10.5em;
 }
 
 .linkedinText{
   position:relative;
-  top:11em;
+  top:10.5em;
   right:8.5em;
 }
 
@@ -253,10 +253,10 @@ transform:scale(1.1);
 }
 
 .homeMail{
-  color:#E3A3B3;
+  color:#DA0037;
   position:relative;
   left:47em;
-  top:8em;
+  top:7em;
 }
 
 .homeMail:hover{
@@ -266,22 +266,22 @@ transform:scale(1.1);
 }
 
 .emailText{
-  color:#E3A3B3;
+  color:#DA0037;
   position:relative;
   left:42em;
-  top:12.6em;
+  top:12em;
 }
 
 .leetcode{
   position:relative;
   left:49.5em;
-  top:4em;
+  top:3em;
 }
 
 .leetText{
   position:relative;
   left:15em;
-  top:4em;
+  top:3em;
   max-height:.2em;
 }
 
@@ -313,9 +313,7 @@ transform:scale(1.1);
   body{
     overflow-x:hidden;
   }
-  .techItems{
-    display:block !important;
-  }
+
 
   .front{
     min-width:15em;
@@ -323,8 +321,12 @@ transform:scale(1.1);
 
   .end{
     background-image:none;
-    height:110em;
-    overflow:hidden;
+    height:100em;
+    overflow-y:hidden;
+  }
+
+  .email{
+    visibility:hidden;
   }
 
   .contact{
@@ -332,31 +334,54 @@ transform:scale(1.1);
     top:10em;
   }
 
-  #emailForm{
-    visibility: hidden;
-  }
-
   .linkedinText{
-    top:0;
-    left:-6em;
-    margin-bottom:8em;
+    position:relative;
+    top:-15em;
+    left:0;
+    display:inline;
+    color:#DA0037;
   }
 
   .leetText{
-    top:0;
-    left:-5.5em;
-    margin-bottom:10em;
+    position:relative;
+    left:0;
+    top:-20em;
+    display:inline;
+    color:#DA0037;
+  }
+
+  .homeMail{
+    position:relative;
+    left:6em;
+    top:-11em;
+    right:0;
+    display:inline;
+    color:#DA0037;
   }
 
   .homeGitText{
-    margin-top:8em;
-    top:0;
-    right:6em;
-    margin-bottom:-11em;
+    top:-13.7em;
+    right:2em;
+    display:inline;
+    color:#DA0037;
   }
 
   .saturn{
     max-width:100vw;
     overflow-x:hidden;
+  }
+
+  .resImage{
+    visibility:hidden;
+  }
+
+  .links{
+    position:relative;
+    right:5em;
+    background-color:white;
+  }
+
+  .res{
+    background-color:white;
   }
 }
