@@ -307,7 +307,48 @@ transform:scale(1.1);
   height:48em;
 }
 
+.modelContainer{
+  display:grid;
+  grid-template-rows: 50em;
+}
 
+.modelOne{
+  grid-row:1/1;
+}
+
+
+.photoContainer{
+  display:grid;
+  grid-template-columns:50em;
+  grid-template-rows: 42em 40em 42em 42em;
+  grid-gap:1em;
+  justify-content: center;
+  background-color:#444444;
+}
+
+.photoOne{
+  background-image: url("./images/background-img.jpg");
+  background-size: 50em 42em;
+  border-radius: 3em;
+}
+
+.photoTwo{
+  background-image: url("./images/flowers.jpeg");
+  background-size: 50em 40em;
+  border-radius: 3em;
+}
+
+.photoThree{
+  background-image: url("./images/mountains.jpeg");
+  background-size: 50em 42em;
+  border-radius: 3em;
+}
+
+.photoFour{
+  background-image: url("./images/skiing.jpeg");
+  background-size: 50em 42em;
+  border-radius: 3em;
+}
 
 @media screen and (max-width: 768px){
   body{
@@ -383,5 +424,21 @@ transform:scale(1.1);
 
   .res{
     background-color:white;
+  }
+
+  #sidebarPhotos{
+    position:relative;
+    left:12.8em;
+    top:10em;
+  }
+
+  #sidebarModels{
+    position:relative;
+    top:5em;
+  }
+
+  #sidebarResume{
+    position:relative;
+    right:13.5em;
   }
 }

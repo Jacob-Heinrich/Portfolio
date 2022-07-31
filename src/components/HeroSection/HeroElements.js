@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import jellyFish from '../../images/jellyfish.jpg';
-import img from '../../images/backgroundimg.jpg';
+import img from '../../images/architecture.jpg';
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;

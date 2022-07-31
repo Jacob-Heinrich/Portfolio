@@ -30,7 +30,7 @@ function Home(){
     <SideBar isOpen = {isOpen} toggle = {toggle} />
     <NavBar toggle = {toggle}/>
     <div id = "mainContain">
-    <Saturn />
+    <HeroSection />
     <About {...homeObjOne} />
     <Technology />
     <div className = "end">

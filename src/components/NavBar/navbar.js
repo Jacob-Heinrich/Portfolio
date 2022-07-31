@@ -27,9 +27,6 @@ function NavBar({ toggle }){
     <NavLinks to="footer">Contact Me</NavLinks>
     </NavItem>
     </NavMenu>
-    <NavBtn>
-    <NavBtnLink to='/resume'>Resume</NavBtnLink>
-    </NavBtn>
     </NavbarContainer>
     </Nav>
     </>

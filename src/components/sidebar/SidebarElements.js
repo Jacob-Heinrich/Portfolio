@@ -44,6 +44,10 @@ export const SidebarMenu = styled.ul`
   grid-template-row: repeate(6, 80px);
   text-align: center;
 
+  @media screen and (min-width:768px){
+    visibility:hidden;
+  }
+
   @media screen and (max-width: 480px){
     grid-template-row: repeat(6,60px);
   }
@@ -75,9 +79,10 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkRouter)`
   border-radius:50px;
-  background: #01bf71;
+  background: #DA0037;
   white-space: nowrap;
   padding: 16px 64px;
+  margin-right:1em;
   color: #010606;
   font-size: 16px;
   outline: none;
