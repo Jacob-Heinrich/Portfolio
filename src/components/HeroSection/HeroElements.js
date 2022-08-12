@@ -14,10 +14,6 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index:1;
   overflow-x:hidden;
-
-  @media screen and (max-width:768px){
-    background-image:url(${jellyFish});
-  }
 `
 
 export const HeroBg = styled.div`

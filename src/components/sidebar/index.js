@@ -14,7 +14,6 @@ function SideBar({ isOpen, toggle}) {
     <SidebarLink to="projects">Projects</SidebarLink>
     </SidebarMenu>
     <SideBtnWrap>
-    <SidebarRoute to="/photos" id = "sidebarPhotos">Photos</SidebarRoute>
     <SidebarRoute to="/models" id = "sidebarModels">3D Models</SidebarRoute>
     <SidebarRoute to="/resume" id = "sidebarResume">Resume</SidebarRoute>
     </ SideBtnWrap>
